@@ -87,7 +87,7 @@
     display: inline-block;
     text-decoration: none;
     float: right;
-    margin-right: 60px;
+    margin-right: 80px;
     line-height: 70px;  
 }
 .links {
@@ -255,6 +255,65 @@
 .BackHomeLink {
     margin-top: -30px;
     margin-left: -400px;
+    color: rgb(73, 68, 68);
+    font-size: 30px;
+}
+
+.Timer {
+    height: 960px;  
+    width: 900px;
+    margin: auto;  
+    background-color:rgb(218, 226, 226);
+}
+
+.Timer h1 {
+    color: rgb(73, 68, 68);
+    padding-top: 20px;
+    padding-bottom: -15px;
+}
+
+.TimerDetail {
+    display: block;
+    width: 500px;
+    height: 350px;
+}
+
+.TimerDetail label{
+    border-style: none;
+    font-size: 30px;
+    
+}
+
+.setTime {   
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 50px;
+
+
+}
+
+.Start {
+    margin-top: 30px;
+    width: 310px;
+    height: 50px;
+    background-color: rgb(179, 119, 235);
+    border-style: none;
+}
+
+.Countdown {
+    display: block;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: -130px;
+    padding-top: 20px;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+}
+
+.BackHomeLink2 {
+    margin-top: -200px;
+    margin-left: -500px;
     color: rgb(73, 68, 68);
     font-size: 30px;
 }

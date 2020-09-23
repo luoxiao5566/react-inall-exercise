@@ -3,7 +3,8 @@ import './app.less';
 import {Route, BrowserRouter, Switch, Link, NavLink} from "react-router-dom";
 import Home from "./Home";
 import Calculator from './Calculator';
-import '../style/components.css'
+import '../style/components.css';
+import Timer from './timer';
 
 
 
@@ -41,6 +42,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={Home}/>
             <Route path='/calculator' component={Calculator} />
+            <Route path='/timer' component={Timer} />
           </Switch>        
         </div>
       </BrowserRouter>
